@@ -1,0 +1,38 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.home{
+  display:flex;
+  background:url("images.jpeg")no-repeat right;
+  background-size:1500px;
+  height:100vh;
+  color:rgb(245, 252, 252);
+  min-height: 500px;
+  background-color:black;
+  font-family:'Ubuntu',sans-serif;
+
+}
+.home .max-width{
+  margin: auto 0 auto 40px;
+}
+.home .home-content .text-1{
+  font-size:27px;;
+}
+.home .home-content .text-2{
+  font-size:75 px;
+  margin-left: -3px;
+  font-weight:600;
+}
+.home .home-content .text-3{
+  font-size:40 px;
+  margin:5px 0;
+
+}
+.home .home-content .text-3 span{
+  color: brown;
+  font-weight: 600;
+}
